@@ -15,8 +15,8 @@
    "id": 2,
    "priority_score": 7398969754.0,
    "scheduled_for": "2026-10-09T13:00:00+06:00",
-   "state": "queued",
-   "updated_at": "2026-10-08T22:31:21+00:00"
+   "state": "scheduled",
+   "updated_at": "2026-10-08T22:31:58+00:00"
   },
   {
    "created_at": "2026-10-08T22:30:54+00:00",
@@ -88,7 +88,7 @@
   },
   {
    "attempts": 0,
-   "buffer_id": null,
+   "buffer_id": "6ac819c7d8f440ec78c85281",
    "error": null,
    "generated_post_id": "2026-10-09-0002",
    "history_source": null,
@@ -97,9 +97,9 @@
    "original_slot": null,
    "platform": "facebook",
    "scheduled_for": "2026-10-09T13:00:00+06:00",
-   "status": "submitting",
+   "status": "scheduled",
    "submitted_at": "2026-10-08T22:31:21+00:00",
-   "updated_at": "2026-10-08T22:31:21+00:00"
+   "updated_at": "2026-10-08T22:31:58+00:00"
   },
   {
    "attempts": 0,
