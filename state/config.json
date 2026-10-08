@@ -1,0 +1,83 @@
+{
+ "approval_mode": "auto",
+ "buffer": {
+  "channels": {
+   "facebook": "6ac6ae956a5c39ccb6460496",
+   "instagram": ""
+  },
+  "facebook_post_type": "post",
+  "instagram_post_type": "post",
+  "max_scheduled_per_channel": 10,
+  "organization_id": "683accb32de350a2766f37a8",
+  "push_ahead_limit": 10
+ },
+ "content": {
+  "hashtags_max": 5,
+  "specialty_line": "Gynecology & Obstetrics"
+ },
+ "dry_run": false,
+ "enabled": true,
+ "github": {
+  "branch": "main",
+  "image_pattern": "{yyyy}/{mm}/img-{n:05d}.jpg",
+  "metadata_pattern": "{yyyy}/{mm}/metadata/img-{n:05d}.json",
+  "number_floor": 3,
+  "repo": "quickfixstudios/dr-halima-media",
+  "store_source_images": false
+ },
+ "platforms": {
+  "facebook": true,
+  "instagram": true
+ },
+ "schedule": {
+  "horizon_days": 60,
+  "lead_minutes": 20,
+  "max_posts_per_day": 3,
+  "min_interval_minutes": 60,
+  "times": [
+   "09:00",
+   "13:00",
+   "20:00"
+  ]
+ },
+ "sources": [
+  {
+   "enabled": true,
+   "name": "Punjab Kesari Health Plus",
+   "platform": "facebook",
+   "priority": 1,
+   "url": "https://www.facebook.com/punjabkesarihealthplus"
+  },
+  {
+   "enabled": true,
+   "name": "My Health Tips",
+   "platform": "facebook",
+   "priority": 2,
+   "url": "https://www.facebook.com/MyHealthTipsPage"
+  },
+  {
+   "enabled": true,
+   "name": "Your Health Care",
+   "platform": "facebook",
+   "priority": 3,
+   "url": "https://www.facebook.com/YourHealthCareYHC"
+  },
+  {
+   "enabled": true,
+   "name": "Facebook Page 61559143209578",
+   "platform": "facebook",
+   "priority": 4,
+   "url": "https://www.facebook.com/profile.php?id=61559143209578"
+  }
+ ],
+ "state": {
+  "backend": "repo",
+  "git_branch": "main",
+  "git_remote": ""
+ },
+ "timezone": "Asia/Dhaka",
+ "window": {
+  "days": 2,
+  "mode": "calendar"
+ }
+}
