@@ -1,10 +1,10 @@
 {
- "content_digest": "6d7307eff4a52cf5d009",
+ "content_digest": "b7558386ef193c4a3a0b",
  "counters": {
   "img_number": 9,
   "post-2026-10-09": 6
  },
- "exported_at": "2026-10-08T22:31:22+00:00",
+ "exported_at": "2026-10-08T22:31:56+00:00",
  "failed_targets": [],
  "instagram_waiting_for_buffer_connection": 6,
  "meta": {
@@ -13,7 +13,7 @@
   "schema_version": "2"
  },
  "schema_version": 2,
- "state_revision": 3,
+ "state_revision": 4,
  "workflow_runs": [
   {
    "dry_run": 0,
