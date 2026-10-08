@@ -1,27 +1,29 @@
 {
- "content_digest": "dc4d15f3c28eada88603",
+ "content_digest": "bfde324fe5eb4f092581",
  "counters": {
   "img_number": 9,
   "post-2026-10-09": 6
  },
- "exported_at": "2026-10-08T22:32:10+00:00",
+ "exported_at": "2026-10-08T22:32:12+00:00",
  "failed_targets": [],
  "instagram_waiting_for_buffer_connection": 6,
  "meta": {
   "buffer_connections": "{\"facebook\": {\"status\": \"CONNECTED\", \"channel_id\": \"6ac6ae956a5c39ccb6460496\", \"name\": \"Dr. Halima\", \"reason\": \"\", \"enabled_in_config\": true}, \"instagram\": {\"status\": \"NOT CONNECTED\", \"channel_id\": null, \"name\": null, \"reason\": \"Buffer lists no instagram channel for this organization\", \"enabled_in_config\": true}, \"checked_at\": \"2026-10-08T22:23:13+00:00\"}",
   "last_buffer_check": "2026-10-08T22:23:13+00:00",
+  "last_run_id": "2026-10-09-run-001",
+  "last_successful_run": "2026-10-08T22:32:11+00:00",
   "schema_version": "2"
  },
  "schema_version": 2,
- "state_revision": 9,
+ "state_revision": 10,
  "workflow_runs": [
   {
    "dry_run": 0,
-   "finished_at": null,
+   "finished_at": "2026-10-08T22:32:11+00:00",
    "id": "2026-10-09-run-001",
    "started_at": "2026-10-08T22:23:13+00:00",
-   "stats_json": null,
-   "status": "running",
+   "stats_json": "{\"run_id\": \"2026-10-09-run-001\", \"dry_run\": false, \"window_dates\": [\"2026-10-07\", \"2026-10-08\"], \"sources_configured\": 4, \"sources_checked\": 4, \"sources_ok\": 4, \"sources_failed\": 0, \"failures\": [], \"recent_posts_found\": 26, \"eligible_images_found\": 26, \"duplicates_skipped\": 0, \"new_source_images\": 26, \"generated_creatives\": 6, \"qa_passed\": 6, \"qa_failed\": 0, \"source_images_rejected\": 5, \"added_to_queue\": 6, \"scheduled_today\": 3, \"scheduled_in_buffer\": 6, \"queued_for_future\": 0, \"failed_targets\": 0, \"awaiting_review\": 0, \"queue_by_day\": {\"2026-10-09\": 3, \"2026-10-10\": 3}, \"image_files_saved\": 26, \"acquired_by_method\": {\"direct_url\": 0, \"browser_resource\": 26, \"browser_download\": 0, \"screenshot_fallback\": 0}, \"dates\": {\"exact\": 26, \"derived\": 0, \"estimated\": 0, \"unknown\": 0}, \"posts_not_processed_undated\": 0, \"images_resumed\": 0, \"buffer_connections\": {\"facebook\": \"CONNECTED\", \"instagram\": \"NOT CONNECTED\"}, \"facebook_scheduled\": 6, \"instagram_waiting_for_buffer_connection\": 6, \"history_records\": 43, \"state_revision\": \"9\"}",
+   "status": "completed",
    "window_json": "{\"mode\": \"calendar\", \"timezone\": \"Asia/Dhaka\", \"run_date\": \"2026-10-09\", \"dates\": [\"2026-10-07\", \"2026-10-08\"], \"start\": \"2026-10-07T00:00:00+06:00\", \"end\": \"2026-10-09T00:00:00+06:00\"}"
   }
  ]

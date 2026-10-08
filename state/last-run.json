@@ -1,4 +1,65 @@
 {
- "report": null,
- "run": null
+ "report": {
+  "acquired_by_method": {
+   "browser_download": 0,
+   "browser_resource": 26,
+   "direct_url": 0,
+   "screenshot_fallback": 0
+  },
+  "added_to_queue": 6,
+  "awaiting_review": 0,
+  "buffer_connections": {
+   "facebook": "CONNECTED",
+   "instagram": "NOT CONNECTED"
+  },
+  "dates": {
+   "derived": 0,
+   "estimated": 0,
+   "exact": 26,
+   "unknown": 0
+  },
+  "dry_run": false,
+  "duplicates_skipped": 0,
+  "eligible_images_found": 26,
+  "facebook_scheduled": 6,
+  "failed_targets": 0,
+  "failures": [],
+  "generated_creatives": 6,
+  "history_records": 43,
+  "image_files_saved": 26,
+  "images_resumed": 0,
+  "instagram_waiting_for_buffer_connection": 6,
+  "new_source_images": 26,
+  "posts_not_processed_undated": 0,
+  "qa_failed": 0,
+  "qa_passed": 6,
+  "queue_by_day": {
+   "2026-10-09": 3,
+   "2026-10-10": 3
+  },
+  "queued_for_future": 0,
+  "recent_posts_found": 26,
+  "run_id": "2026-10-09-run-001",
+  "scheduled_in_buffer": 6,
+  "scheduled_today": 3,
+  "source_images_rejected": 5,
+  "sources_checked": 4,
+  "sources_configured": 4,
+  "sources_failed": 0,
+  "sources_ok": 4,
+  "state_revision": "9",
+  "window_dates": [
+   "2026-10-07",
+   "2026-10-08"
+  ]
+ },
+ "run": {
+  "dry_run": 0,
+  "finished_at": "2026-10-08T22:32:11+00:00",
+  "id": "2026-10-09-run-001",
+  "started_at": "2026-10-08T22:23:13+00:00",
+  "stats_json": "{\"run_id\": \"2026-10-09-run-001\", \"dry_run\": false, \"window_dates\": [\"2026-10-07\", \"2026-10-08\"], \"sources_configured\": 4, \"sources_checked\": 4, \"sources_ok\": 4, \"sources_failed\": 0, \"failures\": [], \"recent_posts_found\": 26, \"eligible_images_found\": 26, \"duplicates_skipped\": 0, \"new_source_images\": 26, \"generated_creatives\": 6, \"qa_passed\": 6, \"qa_failed\": 0, \"source_images_rejected\": 5, \"added_to_queue\": 6, \"scheduled_today\": 3, \"scheduled_in_buffer\": 6, \"queued_for_future\": 0, \"failed_targets\": 0, \"awaiting_review\": 0, \"queue_by_day\": {\"2026-10-09\": 3, \"2026-10-10\": 3}, \"image_files_saved\": 26, \"acquired_by_method\": {\"direct_url\": 0, \"browser_resource\": 26, \"browser_download\": 0, \"screenshot_fallback\": 0}, \"dates\": {\"exact\": 26, \"derived\": 0, \"estimated\": 0, \"unknown\": 0}, \"posts_not_processed_undated\": 0, \"images_resumed\": 0, \"buffer_connections\": {\"facebook\": \"CONNECTED\", \"instagram\": \"NOT CONNECTED\"}, \"facebook_scheduled\": 6, \"instagram_waiting_for_buffer_connection\": 6, \"history_records\": 43, \"state_revision\": \"9\"}",
+  "status": "completed",
+  "window_json": "{\"mode\": \"calendar\", \"timezone\": \"Asia/Dhaka\", \"run_date\": \"2026-10-09\", \"dates\": [\"2026-10-07\", \"2026-10-08\"], \"start\": \"2026-10-07T00:00:00+06:00\", \"end\": \"2026-10-09T00:00:00+06:00\"}"
+ }
 }
